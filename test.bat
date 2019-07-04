@@ -1,7 +1,10 @@
 ::
-::æ‰¹é‡åˆæˆè¯­éŸ³,æ ¹æ®è‡ªå·±çš„éœ€è¦æŒ‰ç¤ºä¾‹,æ”¹å˜textå’Œæ–‡æœ¬å†…å®¹,è¿è¡Œå³å¯ä¿å­˜ç›¸å…³çš„æ–‡ä»¶åˆ°å½“å‰ç›®å½•
+::ÅúÁ¿ºÏ³ÉÓïÒô,¸ù¾Ý×Ô¼ºµÄÐèÒª°´Ê¾Àý,¸Ä±ätextºÍÎÄ±¾ÄÚÈÝ,ÔËÐÐ¼´¿É±£´æÏà¹ØµÄÎÄ¼þµ½µ±Ç°Ä¿Â¼
 ::
-::exampleï¼š./tts_batch.py  text filename.wav
+::example£ºpython tts_batch.py  text filename.wav
 ::
-python tts_batch.py  æµ‹è¯•æ–‡æœ¬1 test_txt1
-python tts_batch.py  æµ‹è¯•æ–‡æœ¬2 test_txt2
+
+python tts_batch.py  "Õâ¸öÊÇÊ¾Àý1"     test_txt1
+python tts_batch.py  "Õâ¸öÊÇÊ¾Àý2"     test_txt2
+python tts_batch.py  "ºÃµÄÖ÷ÈË"        haodezhuren
+python tts_batch.py  "ÖÐ¹Ø´åÔÚÏßÏûÏ¢£º½üÈÕ£¬±±¾©ÊÐ×Ô¶¯¼ÝÊ»²âÊÔ¹ÜÀíÁªÏ¯Ð¡×é·¢²¼Ê×ÅúT4¼¶±ð×Ô¶¯¼ÝÊ»²âÊÔÅÆÕÕ£¬×Ü¼Æ5ÕÅ£¬°Ù¶ÈÈ«²¿ÊÕÈëÄÒÖÐ£¬³ÉÎªÖÐ¹úµÚÒ»¼Ò¡¢Ò²ÊÇÎ¨Ò»»ñµÃ´Ë¼¶±ðÅÆÕÕµÄÆóÒµ¡£×òÌìµÄ°Ù¶ÈAI¿ª·¢Õß´ó»áÉÏÒ²ÎªÎÒÃÇ·ÖÏíÁËÕâÔòÏûÏ¢£¬Í¬Ê±°Ù¶ÈÒ²Óë¼ªÀû´ï³ÉºÏ×÷£¬¼ªÀû²©Ô½½«´îÔØÐ¡¶ÈÖÇÄÜ³µÔØÏµÍ³¡£"    wenben

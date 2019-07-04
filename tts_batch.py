@@ -12,7 +12,7 @@ client = AipSpeech(AppID,APPKEY,APPSECRET)
 text = sys.argv[1]
 fname = sys.argv[2] + ".wav"
 
-SPEAKER = 4	# 发音人选择, 0为普通女声，1为普通男生，3为情感合成-度逍遥，4为情感合成-度丫丫，默认为普通女声
+SPEAKER = 0	# 发音人选择, 0为普通女声，1为普通男生，3为情感合成-度逍遥，4为情感合成-度丫丫，默认为普通女声
 SPEED = 5		# Speed, 0 ~ 15; 语速，取值0-9，默认为5中语速
 PITCH = 5		# Pitch, 0 ~ 15; 音调，取值0-9，默认为5中语调
 VOLUME = 8	# Volume, 0 ~ 9; 音量，取值0-9，默认为5中音量

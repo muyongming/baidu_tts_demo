@@ -3,8 +3,8 @@
 #
 # example：./tts_batch.py  text filename
 #
-./tts_batch.py  这个是示例1     test_txt1
-./tts_batch.py  这个是示例2     test_txt2
-./tts_batch.py  好的主人        haodezhuren
-./tts_batch.py  今年晚些时候在弗吉尼亚州布莱克斯堡市开始提供无人机送货服务    wenben
+./tts_batch.py  "这个是示例1"     test_txt1
+./tts_batch.py  "这个是示例2"     test_txt2
+./tts_batch.py  "好的主人"        haodezhuren
+./tts_batch.py  "中关村在线消息：近日，北京市自动驾驶测试管理联席小组发布首批T4级别自动驾驶测试牌照，总计5张，百度全部收入囊中，成为中国第一家、也是唯一获得此级别牌照的企业。昨天的百度AI开发者大会上也为我们分享了这则消息，同时百度也与吉利达成合作，吉利博越将搭载小度智能车载系统。"    wenben
 

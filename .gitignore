@@ -1,0 +1,6 @@
+
+# __pycache__ dir
+__pycache__
+
+# wav files
+*.wav
