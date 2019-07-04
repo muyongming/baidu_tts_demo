@@ -21,7 +21,7 @@ AUE = 6		# Aue,下载音频的格式 3：mp3(default) 4： pcm-16k 5： pcm-8k 6
 if __name__ == "__main__":
     data = client.synthesis(text,'zh', 1, {'per':SPEAKER, 'spd':SPEED, 'pit':PITCH, 'vol':VOLUME,})
     if not isinstance(data, dict):
-        print("file:" + fname)
+        print(fname + "  <----  " + text)
         fp = open(fname, 'wb')
         fp.write(data)
         fp.close()
