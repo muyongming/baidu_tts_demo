@@ -4,3 +4,4 @@ __pycache__
 
 # wav files
 *.wav
+*.mp3
